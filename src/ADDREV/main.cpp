@@ -84,7 +84,8 @@ int main() {
         trimZeroes(sum, -1);
         sum = strrev(sum);
         trimZeroes(sum, -1);
-        cout<<sum<<endl;
+        sum = strrev(sum);
+        printf("%s\n", sum);
     }
     return 0;
 }
